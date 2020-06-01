@@ -3,7 +3,8 @@
 
     <router-link to="/single">单个词汇</router-link>
     <router-link to="/multiple">多个词汇</router-link>
-    <router-link to="/">矩阵词汇</router-link>
+    <router-link to="/matrix">矩阵词汇1</router-link>
+    <router-link to="/matrix2">矩阵词汇2</router-link>
   </div>
 </template>
 
