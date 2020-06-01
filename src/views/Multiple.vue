@@ -9,7 +9,7 @@
   </div>
 </template>
 <script>
-import {words} from '../words';
+import {getMultipleWords} from '../words';
 
 export default {
   data(){
@@ -22,10 +22,7 @@ export default {
   },
   methods: {
     newWords(){
-      this.words = [];
-      for(let i = 0;i<4;i++){
-        this.words.push(words[Math.floor((Math.random()*words.length))]);
-      }
+      this.words = getMultipleWords(4);
     }
   },
 }
